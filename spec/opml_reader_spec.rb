@@ -18,11 +18,6 @@ describe OpmlReader do
         it "open opml" do
             expect(@reader.xml).to_not be_nil
         end
-
-        #it "get rss" do
-        #    OpmlReader::Parser.parse(@reader.xml) 
-        #    expect(@reader.get_category("uncategorized").rss.length).to eq 4
-        #end
     end
 
     describe "read" do
